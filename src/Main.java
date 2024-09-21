@@ -14,7 +14,8 @@ public void main() {
     int ekaterina = 30;
     int sheets = 480;
 
-    System.out.println("На каждого ученика рассчитано " + (sheets / (lyudmila + anna)) +  " листов бумаги");
+    System.out.println("");
+    System.out.println("На каждого ученика рассчитано " + (sheets / (lyudmila + anna + ekaterina)) +  " листов бумаги");
 
     int efficiency = 16;
     int time1 = 20;
@@ -25,11 +26,12 @@ public void main() {
     System.out.println("За " + time1 + " минут машина произвела " + (time1 / efficiency) + " штук бутылок");
     System.out.println("За " + time2 + " минут машина произвела " + (time2 / efficiency) +" штук бутылок");
     System.out.println("За " + time3 + " минут машина произвела " + (time3 / efficiency) +" штук бутылок");
+    System.out.println("За " + time4 + " минут машина произвела " + (time3 / efficiency) +" штук бутылок");
 
     int potsWhiteAndBrown = 120;
     int potsWhite = 6;
     int resWhite = potsWhiteAndBrown / potsWhite;
-    int resBrown = potsWhiteAndBrown - resWhite;;
+    int resBrown = potsWhiteAndBrown - resWhite;
     int classes = potsWhiteAndBrown / potsWhite;
     System.out.println("");
     System.out.println("В школе, где " + classes + " классов, нужно " + resWhite + " банок белой краски и " + resBrown + " банок коричневой краски");
@@ -46,4 +48,5 @@ public void main() {
 
     System.out.println("");
     System.out.println("Вес завтрака спротсмена в граммах равен " + breakfast + " или " + (breakfast * 0.77) + " килограмм");
+
 }
