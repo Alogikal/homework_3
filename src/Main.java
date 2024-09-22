@@ -105,7 +105,7 @@ public void main() {
     float tax = 0.10F;
     int year = 12;
     double denisTax = denis + (denis * tax);
-    float denisTaxYear = (float) (denisTax * year * tax);
+    double denisTaxYear = (denisTax * year * tax);
     float mashaTax = masha + (masha * tax);
     float mashaTaxYear = (masha * year * tax);
     float kristinaTax = kristina + (kristina * tax);
